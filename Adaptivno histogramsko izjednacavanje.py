@@ -4,7 +4,7 @@ import os
 from skimage import exposure
 
 # Dobivanje apsolutne putanje do datoteke
-putanja_do_datoteke = os.path.abspath(r"path")
+putanja_do_datoteke = os.path.abspath(r"path") #Change destination 
 
 # Učitavanje DICOM slike
 ds = pydicom.dcmread(putanja_do_datoteke)
