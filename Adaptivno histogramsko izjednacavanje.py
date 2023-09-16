@@ -4,7 +4,7 @@ import os
 from skimage import exposure
 
 # Dobivanje apsolutne putanje do datoteke
-putanja_do_datoteke = os.path.abspath(r"C:\Users\kalma\Desktop\Datoteka\Anonymized_20230916.dcm")
+putanja_do_datoteke = os.path.abspath(r"path")
 
 # Učitavanje DICOM slike
 ds = pydicom.dcmread(putanja_do_datoteke)
